@@ -1,0 +1,37 @@
+{
+    "name": "mycomposer15/geek15",
+    "authors": [
+        {
+            "name": "Hyder Ali",
+            "email": "ghyder209@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    },
+
+    "autoload":{
+
+        "psr-4":{
+            "app\\core\\" : "./core/",
+            "app\\controllers\\":"./Controllers/",
+            "app\\models\\":"./Models/",
+            "app\\core\\form\\" : "./core/form"
+
+           
+            
+            
+
+        },
+
+        "files":[
+
+            "./helpers/link.php"
+        ]
+      
+
+        
+
+    }
+    
+}

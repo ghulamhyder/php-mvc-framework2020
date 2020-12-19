@@ -1,0 +1,1 @@
+<h1>Home</h1> <span><?php echo $title;?></span>
